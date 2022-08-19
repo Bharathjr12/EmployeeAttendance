@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.empMainDiv {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-grow: inherit;
+  flex: 1;
+  margin: 0.8rem;
+}
+.empDetailsDiv {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  box-sizing: 0 0 0 25rm;
+  box-shadow: 0 0 25rm;
+  box-shadow: 2px 4px 7px 0px black;
+  margin: 0.8rem 0;
+}
+.empNameDiv label {
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+.empNameDiv input {
+  border: none;
+  font-size: 13px;
+}
+.empNameDiv input:focus {
+  outline: none;
+}
+
+.empNameDiv {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.empAttDiv {
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.empAttDiv label {
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+.empAttDetails {
+  border: 1px solid #ccc;
+  margin: 0.3rem;
+}
