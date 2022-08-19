@@ -4,7 +4,7 @@ if (!sessionStorage.getItem("EmployeeDetails")) {
     JSON.stringify({
       empList: [
         {
-          id: 187188,
+          id: 1008,
           name: "Bharath J R",
           phone: "7411466537",
           attendance: [
@@ -16,7 +16,7 @@ if (!sessionStorage.getItem("EmployeeDetails")) {
           ],
         },
         {
-          id: 187189,
+          id: 1009,
           name: "Savi",
           phone: "7411466537",
           attendance: [
@@ -28,7 +28,7 @@ if (!sessionStorage.getItem("EmployeeDetails")) {
           ],
         },
         {
-          id: 187190,
+          id: 1010,
           name: "Ranga",
           phone: "7411466537",
           attendance: [
@@ -40,7 +40,7 @@ if (!sessionStorage.getItem("EmployeeDetails")) {
           ],
         },
         {
-          id: 187191,
+          id: 1011,
           name: "Mad",
           phone: "7411466537",
           attendance: [
@@ -52,7 +52,7 @@ if (!sessionStorage.getItem("EmployeeDetails")) {
           ],
         },
         {
-          id: 187192,
+          id: 1012,
           name: "Maddie",
           phone: "7411466537",
           attendance: [
